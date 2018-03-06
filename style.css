@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, "Helvetica Neue", Arial, Verdana;
+    font-size: 16px;
+}
+
+body {
+    background-color: #CCCCCC; /* Grey */
+}
+
+header,
+footer {
+    background-color: #000000;
+    padding: 4px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+    height: auto;
+}
+
+section {
+    max-width: 230px;
+    width: 100%;
+	min-height: 100px;
+    height: auto !important;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 12px 8px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    min-height: 300px;
+    height: auto !important;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+#no-change {
+    /* this will always stay white regardless of which button is clicked so set the Id and forget about it*/
+    background-color: white;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+}

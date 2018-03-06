@@ -1,0 +1,38 @@
+<!-- Build a responsive module on a webpage containing 4 square boxes with colors: red, green, blue, white.
+Each box has a maximum width of 230px, and the webpage has a maximum width of 980px.
+Each box contains a button, and when clicked changes the color of the other buttons to its color, except for the white box.
+The white box always remains white and when its button is clicked, it resets the colors of the other boxes to their original colors.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pam's Code Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+</head>
+<body>
+
+<header>This is my Challenge</header>
+<div class="container">
+    <section class="red change">
+        <button id="red" type="button" value="Update to Red.">Update to Red</button>
+    </section>
+    <section class="green change">
+        <button id="green" type="button" value="Update to Green." >Update to Green</button>
+    </section>
+    <section class="blue change">
+        <button id="blue" type="button" value="Update to Blue.">Update to Blue</button>
+    </section>
+    <section id="no-change" class="section">
+        <button id="reset" type="button" value="Reset Colors.">Reset Colors</button>
+    </section>
+</div>
+<footer><a href="http://incorporatingdesign.com/code-challenges/schwab/schwab_challenge.zip">Download Files</a></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="challenge.js"></script>
+</body>
+</html>
